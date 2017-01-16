@@ -62,7 +62,7 @@ function run(msg, matches)
 				local yeo = http.request('http://yeo.ir/api.php?url='..URL.escape(matches[2]))
 				local opizo = http.request('http://api.gpmod.ir/shorten/?url='..URL.escape(matches[2])..'&username=rezamehdpour@gmail.com')
 
-				return reply_msg(msg.id,'لینک مورد نظر :\n'..matches[2]..'\n\n━━━━━━━━━━\nلینک کوتاه شده با Opizo :\n'..opizo..'\n━━━━━━━━━━\nلینک کوتاه شده با Yeo :\n'..yeo..'\n━━━━━━━━━━━\n» [ @EnigmaTM ] «',ok_cb,false)
+				return reply_msg(msg.id,'لینک مورد نظر :\n'..matches[2]..'\n\n━━━━━━━━━━\nلینک کوتاه شده با Opizo :\n'..opizo..'\n━━━━━━━━━━\nلینک کوتاه شده با Yeo :\n'..yeo..'\n━━━━━━━━━━━\n» [ @tele_eliza ] «',ok_cb,false)
 		
 			else
 		
@@ -81,7 +81,7 @@ function run(msg, matches)
 		local res = http.request(database.."fal.db")
 		local fal = res:split(",")
 		local fal = fal[math.random(#fal)]
-				txt = "🎭 فال شما :\n━━━━━━━━━━━━━━━━━━━━━━━━\n"..fal.."\n━━━━━━━━━━━━\n» [ @EnigmaTM ] «"
+				txt = "🎭 فال شما :\n━━━━━━━━━━━━━━━━━━━━━━━━\n"..fal.."\n━━━━━━━━━━━━\n» [ @tele_eliza ] «"
 		return reply_msg(msg.id,txt,ok_cb,false)
 	end
 	
@@ -109,7 +109,7 @@ function run(msg, matches)
 		local pass = 'dram1135' 
 		local url = 'http://api.avirateam.ir/mobile/cli/index.php?pass='..pass 
 		local req = http.request(url) 
-			req = req:gsub("Powered By http://www.mobile.ir","━━━━━━━━━━━━\n» [ @EnigmaTM ] «")
+			req = req:gsub("Powered By http://www.mobile.ir","━━━━━━━━━━━━\n» [ @tele_eliza ] «")
 			req = req:gsub("اطلاعات بیشتر","لینک")
 			req = req:gsub("🆕 لیست جدیدترین گوشی ها :","🔍 جدیدترین موبایل ها :\n━━━━━━━━━━━━━━━")
 			return reply_msg(msg.id,req,ok_cb,false)
