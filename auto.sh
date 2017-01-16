@@ -1,4 +1,4 @@
 while [[ true ]]; do
-  ./run.sh
+  ./launch.sh
   sleep 2
 done
