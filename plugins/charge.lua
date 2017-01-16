@@ -77,7 +77,7 @@ end
 if (matches[1] == "راهنمای شارژ" or matches[1]:lower() == "helpcharge") and is_momod(msg) then
 
 	local data = load_data(_config.moderation.data)
-	local target = 1070973134 -- ایدی گروه پشتیبانی
+	local target = 265821275 -- ایدی گروه پشتیبانی
 	Link = data[tostring(target)]['settings']['set_link']
 	
 	if Link then
@@ -87,7 +87,7 @@ if (matches[1] == "راهنمای شارژ" or matches[1]:lower() == "helpcharge
 	end
 	
 	HelpChargeText = [[جهت شارژ گروه خود از طریق ربات زیر با ما در تماس باشید :
-@EnigmaSupBot
+@a_s_h_k_a_n_pj
 ➖➖➖➖
 یا در گروه پشتیبانی عضو شوید :]]
 	return reply_msg(msg.id,HelpChargeText.."\n"..SpLink,ok_cb,false)
@@ -127,7 +127,7 @@ local function pre_process(msg)
 				-- When Group Expired Do :
 				local data = load_data(_config.moderation.data)
 				send_large_msg(get_receiver(msg),GroupExpiredText)
-				send_large_msg("user#id"..GpOwner,"مدیر گرامی ، سلام\n\n🚫 شارژ گروه شما با نام "..msg.to.title.." تمام شده است. بات از آن گروه خارج شد.\n\n👈 برای تمدید ربات در گروهتان با ما در ارتباط باشید\n☑️ ☑️ در صورتی که ریپورتید به گروه پشتیبانی مراجعه کنید :\n> https://telegram.me/joinchat/DAXPpz_VwM5azabRHkmmBg")
+				send_large_msg("user#id"..GpOwner,"مدیر گرامی ، سلام\n\n🚫 شارژ گروه شما با نام "..msg.to.title.." تمام شده است. بات از آن گروه خارج شد.\n\n👈 برای تمدید ربات در گروهتان با ما در ارتباط باشید \n @a_s_h_k_a_n_pj  ")
 			
 				-- rem group
 				hashes = 'mute_user:'..msg.to.id
