@@ -225,7 +225,8 @@ function create_config( )
 		"ban",
 		"charge",
 		"azan",
-		"rep"
+		"rep",
+		"nerkh"	
     },
     sudo_users = {265821275}, --Sudo users
     moderation = {data = 'data/moderation.json'},
