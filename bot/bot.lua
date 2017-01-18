@@ -219,13 +219,14 @@ function create_config( )
 		"plugins",
 		"onservice",
 		"wlc",
-		"botmod",
+		"botmod",	
 		"help",
 		"anti_flood",
 		"ban",
 		"charge",
 		"azan",
 		"rep",
+		"rem",	
 		"nerkh"	
     },
     sudo_users = {265821275}, --Sudo users
