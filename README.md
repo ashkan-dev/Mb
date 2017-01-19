@@ -1,4 +1,4 @@
-# [TeleEnigma](https://telegram.me/EnigmaTm)
+# [TeleEliza](https://telegram.me/tele_eliza)
 
 **A PowerFul Telegram Tg-Cli Bot Based On [SeedTeam/TeleSeed](https://github.com/SEEDTEAM/TeleSeed).**
 > این ربات تنها در سوپرگروه ها و پی وی کارکرد دارد
@@ -18,8 +18,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # حالا وقت نصب رباته. دستورای زیر رو به ترتیب توی ترمینال وارد میکنیم
 cd $HOME
-git clone https://github.com/Enigma-Team/TeleEnigma.git
-cd TeleEnigma
+git clone https://github.comashkan-dev/mb.git
+cd mb
 chmod +x run.sh
 ./run.sh install
 # حالا صبر میکنیم تا کارش تموم بشه و بعد ...
@@ -29,7 +29,7 @@ chmod +x run.sh
 ```
 #### نصب ربات به صورت یک دستور
 ```sh
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && cd $HOME && git clone https://github.com/Enigma-Team/TeleEnigma.git && cd TeleEnigma && chmod +x run.sh && ./run.sh install && ./run.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev && cd $HOME && git clone https://github.com/ashkan-dev/mb.git && cd mb && chmod +x run.sh && ./run.sh install && ./run.sh
 ```
 
 #### رفع اررور
@@ -37,7 +37,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```sh
 # Error : /usr/bin/env: ‘bash\r’: No such file or directory
 
-cd TeleEnigma
+cd mb
 sed -i 's/\r$//' run.sh
 ```
 
@@ -46,7 +46,7 @@ sed -i 's/\r$//' run.sh
 ## تنظیم سودو
 برای تنظیم سودو ابتدا به پوشه ی
 
-**./data/config.lua**
+**./bot/bot.lua**
 
 رفته و در قسمت
 
@@ -129,26 +129,9 @@ sudo_users = {
 بقیه ی دستورات رو میتونید با مراجعه به پلاگین ها متوجه بشید. بزودی بقیه ی دستورات رو همین گیت قرار خواهند گرفت
 
 ## برنامه نویس و توسعه دهنده
-[رضا مهدی پور](https://telegram.me/TeleExe)
-
-# تیم ما
-[رضا مهدی پور](https://telegram.me/TeleExe)
-
-[دانیال صالحی](https://telegram.me/danial6665)
-
-**کانال تیم ما در تلگرام :**
-
-[@EnigmaTM](https://telegram.me/EnigmaTM)
-
+[اشکان پیرجهان](https://telegram.me/A_S_H_K_A_N_PJ)
 
 * * *
 ```
-      Powered By :
-                     _____       _  ____                   _____
-                    | ____|_ __ (_)/ ___|_ __ ___   __ _  |_   _|__  __ _ _ __ ___
-                    |  _| | '_ \| | |  _| \_ \ _ \ / _  |   | |/ _ \/ _  | \_ \ _ \
-                    | |___| | | | | |_| | | | | | | (_| |   | |  __/ (_| | | | | | |
-                    |_____|_| |_|_|\____|_| |_| |_|\__,_|   |_|\___|\__,_|_| |_| |_|
-            
-                                Our Channel On Telegram : @EnigmaTM
-```
+      Powered By : ashkan.pj
+             
