@@ -1052,27 +1052,9 @@ return {
     "^[#!/](setrules) (%d+) (.*)$",
     "^[#!/](setname) (.*)$",
     "^[#!/](setgpname) (%d+) (.*)$",
-    "^[#!/](setname) (%d+) (.*)$",
-    "^[#!/](lock) (%d+) (.*)$",
-    "^[#!/](unlock) (%d+) (.*)$",
-	"^[#!/](mute) (%d+)$",
-	"^[#!/](unmute) (%d+)$",
-    "^[#!/](settings) (.*) (%d+)$",
-    "^[#!/](wholist)$",
-    "^[#!/](who)$",
-	"^[#!/]([Ww]hois) (.*)",
-    "^[#!/](type)$",
-    "^[#!/](kill) (chat) (%d+)$",
-    "^[#!/](kill) (realm) (%d+)$",
-	"^[#!/](rem) (%d+)$",
+    "^[#!/](setname) (%d+) (.*)$"
     "^[#!/](addadmin) (.*)$", -- sudoers only
-    "^[#!/](removeadmin) (.*)$", -- sudoers only
-	"[#!/ ](support)$",
-	"^[#!/](support) (.*)$",
-    "^[#!/](-support) (.*)$",
-    "^[#!/](list) (.*)$",
-    "^[#!/](log)$",
-    "^[#!/](help)$",
+    "^[#!/](removeadmin) (.*)$", -- sudoers on
     "^!!tgservice (.+)$",
   },
   run = run
