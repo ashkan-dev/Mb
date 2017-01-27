@@ -227,7 +227,10 @@ function create_config( )
 		"azan",
 		"rep",
 		"rem",	
-		"nerkh"	
+		"nerkh",
+		"stats",
+		"inrealm"			
+		
     },
     sudo_users = {265821275}, --Sudo users
     moderation = {data = 'data/moderation.json'},
