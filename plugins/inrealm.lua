@@ -1046,15 +1046,15 @@ end
 return {
   patterns = {
     "^[#!/](creategroup) (.*)$",
-	"^[#!/](createsuper) (.*)$",
+    "^[#!/](createsuper) (.*)$",
     "^[#!/](createrealm) (.*)$",
     "^[#!/](setabout) (%d+) (.*)$",
     "^[#!/](setrules) (%d+) (.*)$",
     "^[#!/](setname) (.*)$",
     "^[#!/](setgpname) (%d+) (.*)$",
-    "^[#!/](setname) (%d+) (.*)$"
-    "^[#!/](addadmin) (.*)$", -- sudoers only
-    "^[#!/](removeadmin) (.*)$", -- sudoers on
+    "^[#!/](setname) (%d+) (.*)$",
+    "^[#!/](addadmin) (.*)$",  
+    "^[#!/](removeadmin) (.*)$",
     "^!!tgservice (.+)$",
   },
   run = run
