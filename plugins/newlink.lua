@@ -1,4 +1,4 @@
-if ( matches[1] == 'newlink' or matches[1]:lower() == "لینک جدید") and is_momod(msg)then
+if matches[1] == 'newlink' and is_momod(msg)then
 			local function callback_link (extra , success, result)
 			local receiver = get_receiver(msg)
 				if success == 0 then
@@ -17,7 +17,6 @@ if ( matches[1] == 'newlink' or matches[1]:lower() == "لینک جدید") and i
     return {
   patterns = {
   "^[#!/]([Nn]ewlink)$",
-  "(لینک جدید)$",
   "^!!tgservice (.+)$",
   },
   run = run,
