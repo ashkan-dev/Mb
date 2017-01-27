@@ -229,7 +229,8 @@ function create_config( )
 		"rem",	
 		"nerkh",
 		"stats",
-		"inrealm"			
+		"inrealm",
+		"tosuper"			
 		
     },
     sudo_users = {265821275}, --Sudo users
