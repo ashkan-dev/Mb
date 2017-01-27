@@ -230,7 +230,8 @@ function create_config( )
 		"nerkh",
 		"stats",
 		"tosuper",					
-                "inrealm"				
+                "inrealm",
+		"newlink"				
     },
     sudo_users = {265821275}, --Sudo users
     moderation = {data = 'data/moderation.json'},
