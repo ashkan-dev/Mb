@@ -25,7 +25,6 @@ end
 return {
     patterns = {
         '^[!/#](rem) (%d*)$'
-        '^(حذف) (%d*)$'
     },
     run = run
 }
