@@ -3,12 +3,12 @@ local receiver = cb_extra.receiver
  local msg = cb_extra.msg
   local deleted = 0 
 if success == 0 then
-send_large_msg(receiver, "انجام شد.") 
+send_large_msg(receiver, "فقط ادمین ها میتوانند استفاده کنند.") 
 end
 for k,v in pairs(result) do
  kick_user(v.peer_id,msg.to.id)
  end
- send_large_msg(receiver, "این دستور فقط برای ادمین هاست") 
+ send_large_msg(receiver, "تمام کاربران حذف شدند....:) /n all members kicked.") 
  end 
 local function run(msg, matches)
 if is_owner(msg) then
